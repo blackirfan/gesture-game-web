@@ -1,0 +1,25 @@
+body{
+background:#111;
+color:white;
+font-family:Arial;
+text-align:center;
+}
+
+canvas{
+background:black;
+border:3px solid white;
+}
+
+#startScreen{
+margin-bottom:20px;
+}
+
+input{
+padding:10px;
+font-size:16px;
+}
+
+button{
+padding:10px 20px;
+font-size:16px;
+}

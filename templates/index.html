@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pro Fighter</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<h1>Gesture Fighter</h1>
+
+<div id="startScreen">
+
+<input id="playerName" placeholder="Enter your name">
+<button onclick="startGame()">Start Game</button>
+
+</div>
+
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+
+<div id="leaderboard"></div>
+
+<script src="{{ url_for('static', filename='game.js') }}"></script>
+
+</body>
+</html>
